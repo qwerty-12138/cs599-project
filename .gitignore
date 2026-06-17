@@ -1,0 +1,86 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+*.egg
+
+# Node / Frontend
+node_modules/
+src/frontend/dist/
+src/frontend/.vite/
+src/frontend/.env*
+
+# 环境变量
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Docker
+docker/data/
+docker/logs/
+
+# 数据文件（包含敏感信息）
+data/
+src/backend/data/
+src/frontend/data/
+
+# 敏感配置
+mcp_servers.json
+mcp_tools.json
+skills.json
+sessions.json
+messages.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
+logs/
+
+# 数据库
+*.db
+*.sqlite3
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 报告编译
+docs/*.aux
+docs/*.out
+docs/*.toc
+
+# 测试覆盖
+.coverage
+htmlcov/
+
+# 构建缓存
+.cache/
+.parcel-cache/
+
+# SSL证书
+*.pem
+*.key
+*.crt
+
+# API密钥和令牌
+api_key.txt
+*.token
+
+# 临时文件
+*.tmp
+*.bak
+*.backup

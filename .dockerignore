@@ -1,0 +1,58 @@
+.git/
+.gitignore
+.dockerignore
+.env
+.env.local
+.env.*.local
+.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Node / Frontend
+node_modules/
+src/frontend/dist/
+src/frontend/.vite/
+src/frontend/.env*
+
+# 数据文件
+data/
+src/backend/data/
+src/frontend/data/
+docker/data/
+docker/logs/
+
+# 敏感配置
+mcp_servers.json
+mcp_tools.json
+skills.json
+sessions.json
+messages.json
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
+logs/
+
+# SSL证书
+*.pem
+*.key
+*.crt
+
+# API密钥和令牌
+api_key.txt
+*.token
